@@ -1,0 +1,11 @@
+install:
+- node --version
+- npm --version
+- npm install escape-string-regexp
+- npm install gulp
+- npm install kerberos --msvs_version=2013
+- npm install ws --msvs_version=2013
+- npm install v8-debug --msvs_version=2013
+
+build: off
+test: off
