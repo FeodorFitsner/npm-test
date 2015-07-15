@@ -1,9 +1,14 @@
 install:
 - node --version
 - npm --version
-- npm install escape-string-regexp
+
+# adding "standard" stuff
 - npm install gulp
 - npm install grunt
+- npm install bower
+
+# specific packages
+- npm install escape-string-regexp
 - npm install kerberos --msvs_version=2013
 - npm install ws --msvs_version=2013
 - npm install v8-debug --msvs_version=2013
